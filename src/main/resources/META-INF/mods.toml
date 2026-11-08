@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "MIT"
+
+[[mods]]
+modId = "smoothhud"
+version = "1.0.0"
+displayName = "Smooth HUD"
+authors = "SmoothHUD"
+description = '''
+Анимированный HUD: пиксельные гнёзда здоровья и энергии, пульсирующее сердце,
+панель из 4 слотов и собственный инвентарь (клавиша E).
+Стандартные сердца, голод, броня, воздух и хотбар скрыты.
+'''
+
+[[dependencies.smoothhud]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.smoothhud]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

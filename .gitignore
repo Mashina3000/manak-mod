@@ -1,0 +1,19 @@
+# Сборка и кэши Gradle
+build/
+.gradle/
+.gradle-cache/
+run/
+out/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Система
+.DS_Store
+Thumbs.db
